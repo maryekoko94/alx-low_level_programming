@@ -35,7 +35,7 @@ void print_binary(unsigned long int n)
 		if (results == donas)
 		{
 			flag = 1;
-			_putchar('1');
+			putchar('1');
 
 		}
 		else if (flag == 1 || donas == 1)
